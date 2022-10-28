@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* utility classes */
+.padding{
+    padding: 1vh 13vw;
+}
+::placeholder{
+    color: rgb(150, 150, 150);
+}
+.b-border{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.238);
+}
+/* top section */
+section.section-before-header{
+    display: flex;
+    justify-content: space-between;
+}
+.section-left{
+    display: flex;
+}
+div.section-left-box{
+   background-color: rgba(211, 211, 211, 0.382);
+   margin: 0 0.5vh;
+   border-radius: 5px;
+}
+.section-left-box > i{
+    color: gray;
+    margin: 0.5vh;
+    border-radius: 3px;
+}
+p.section-center{
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-top: 0.5vh;
+    color: gray;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+.section-right{
+    display: flex;
+    font-size: 0.75rem;
+    margin-top: 0.5vh;
+    color: gray;
+    text-transform: capitalize;
+    font-variant: small-caps;
+}
+
+/* header */
+
+header{
+    margin: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+header > h1{
+    color: lightpink;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+div.searchbox{
+    border: 1px solid  rgba(0, 0, 0, 0.171);
+    width: 60%;
+    height: 40px;
+    padding: 0 1vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.searchbox > input{
+    /* padding: 0 1vw; */
+    flex: 1;
+    outline: none;
+    border: none;
+}
+.searchbox > i{
+    padding: 0 1vw;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.342);
+}
+
+/* navigation bar */
+.nav-bar{
+    margin: 2vh;
+    padding: 0 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+p.nav-item{
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+p > a{
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+/* banner box */
+
+div.banner{
+    background-image: url(/images/banner-1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0 -10px;
+    background-color: gray;
+    height: 54vh;
+    width: 45vw;
+    margin: 0 auto;
+}
+div.banner-box{
+    margin: 14vh -6vw
+}
+p.trending{
+    color: rgb(245, 160, 173);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    margin: 1.5vh 0vw;
+}
+h1.women-sale{
+    font-weight: 900;
+    font-size: 2.1rem;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.835);
+    margin: 1.5vh 0vw;
+}
+p.start-price{
+    color: gray;
+    font-size: 1.2rem;
+    margin: 1.5vh 0vw;
+}
+span.twenty{
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+a.button{
+    text-decoration: none;
+    padding: 1vh 1vw;
+    background-color: rgb(255, 161, 176);
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    font-size:small;
+}
