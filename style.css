@@ -21,7 +21,9 @@ body {
 .b-border {
     border-bottom: 1px solid rgba(128, 128, 128, 0.238);
 }
-
+.hover:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 /* top section */
 section.section-before-header {
     display: flex;
@@ -137,20 +139,21 @@ p>a {
 /* banner box */
 
 div.banner {
+    max-width: 60vw;
     background-image: url(/images/banner-1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0 -10px;
-    /* background-position: fixed; */
-    /* background-attachment: fixed; */
+    background-position: center center;    
     background-color: gray;
     height: 54vh;
-    width: 45vw;
+    width: 60vw;
     margin: 2vh auto;
+    display: flex;
+    align-items: center;
 }
 
 div.banner-box {
-    margin: 14vh -6vw
+    position: relative;
+    left: 5vw;
 }
 
 p.trending {
@@ -207,7 +210,11 @@ div.box {
     width: 16vw;
     border-radius: 5px;
     border: 1px solid rgba(128, 128, 128, 0.56);
-
+}
+.box:hover{
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 3px 8px;
+    cursor: pointer;
 }
 
 div.right-icon {
@@ -249,7 +256,7 @@ div.left-info {
 
 .product-quantity {
     color: gray;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 a.show-all {
@@ -260,19 +267,27 @@ a.show-all {
     color: pink;
 }
 
-/* <!-- new arrival | trending | top rated --> */
+/* left section starts here */
 section.container {
     margin: 3vh 0;
 }
-
-div.category {
-
-    margin: 3vh 2vw;
-    width: 15vw;
+aside{
+    top: 1vh;
+    width: 18vw;
+    position: sticky;
+    left: 13vw;
+}
+.left-section {
+    box-sizing: border-box;
+    width: 18vw;
+    display: flex;  
+    flex-direction: column;
+}
+.category {
+    margin: 1vh 2vw;
     display: flex;
     flex-direction: column;
 }
-
 div.cat-box {
     cursor: pointer;
     display: flex;
@@ -287,14 +302,11 @@ div.cat-box:hover {
 
 div.cat-icon {
     margin-right: 10px;
-    height: 20px;
     width: 20px;
     background-image: url('/images/icons/dress.svg');
-    background-size: 20px;
+    background-size: contain;
     background-repeat: no-repeat;
-
 }
-
 div.jew {
     background-image: url('/images/icons/jewelry.svg');
 }
@@ -323,34 +335,22 @@ p.plus {
     position: absolute;
     margin-left: 12vw;
 }
-
-
-/* section 1- left  start here */
-
-.left-section {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 35%;
-}
-
-section.container {
-    display: flex;
-}
-
 div.best-sellers {
-    margin: 1vh 1vw;
-    width: 17vw;
+    margin: 1vh 2vw;
 }
-
 div.bs-box {
     margin: 1vh 0;
-    padding: 0 10px;
+    width: 100%;
     display: flex;
 }
-
+.bs-box:hover{
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.247) 0px 3px 8px;
+    cursor: pointer;
+}
 div.left-icon {
-    width: 30%;
+    width: 20%;
+    height: 50px;
     background-repeat: no-repeat;
     background-image: url('/images/icons/dress.svg');
     background-position: center center;
@@ -371,29 +371,18 @@ div.hat {
     background-image: url('images/products/4.jpg');
 }
 
-
-
-
-.right-section-container {
-    position: relative;
-    margin: 0vh -2vw;
-}
-
 .right-details {
     padding-left: 3px;
     font-size: small;
 }
-
 .rating {
     color: rgb(224, 174, 25);
 }
-
 .price {
     color: rgb(255, 91, 116);
     font-size: 0.8rem;
     font-weight: bold;
 }
-
 .notprice {
     color: gray;
     font-size: 0.7rem;
@@ -401,16 +390,20 @@ div.hat {
     padding-bottom: 2px;
 }
 
-div.section1 {
+
+/* right container starts here */
+.right-container {
+    width: 60vw;
+    min-width: 30vw; 
+    flex-wrap: wrap;
+    position: relative;
+    left: 36vw;
+    margin: 0vh -2vw;
+}
+.section1 {
     display: flex;
-    margin-right: 15vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-
-.section1>.b-border {
-    width: 15vw;
-}
-
 .section1-container {
     margin-top: 2vh;
     width: 100%;
@@ -477,22 +470,23 @@ div.section1 {
     border: 1px solid rgba(128, 128, 128, 0.123);
     display: flex;
     height: 50vh;
-    width: 50vw;
+    width: 85%;
     /* background-color: rgb(175, 175, 175); */
 }
 
 .oldspice .left-photo {
     background-color: gray;
-    width: 30%;
+    width: 40%;
     height: 100%;
     background-image: url('/images/products/shampoo.jpg');
     background-position: center center;
-    background-size: cover;
+    background-size: cover;;
 }
 
 .right-about {
+    margin-left: 1vw;
     display: flex;
-    width: 67%;
+    width: 60%;
     flex-direction: column;
 }
 
@@ -503,7 +497,7 @@ div.section1 {
 .right-about .p-about {
     color: gray;
     font-size: 0.8rem;
-    width: 80%;
+    width: 100%;
 }
 
 .right-about .price {
@@ -517,11 +511,57 @@ div.section1 {
 }
 
 .right-about .button {
+    text-align: center;
     margin: 1vh 0;
-    width: 20%;
+    width: 25%;
     background-color: rgb(255, 109, 133);
 }
-
+.availability {
+    width: 75%;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .sale-bar-progress {
+    width: 75%;
+    padding: 0.1rem;
+    background-color: #ededed;
+    border-radius: 10px;
+  }
+  
+  .sale-bar-progress span {
+    display: block;
+    width: 50%;
+    background-color: #ff8f9d;
+    height: 0.3rem;
+    border-radius: 10px;
+  }
+  
+  .time-box {
+    box-sizing: border-box;
+    display: flex;
+    width: 55%;
+    gap: 1.5rem;
+  }
+  
+  .time {
+    margin: 1vh 0;
+    width: 7rem;
+    padding: 1rem;
+    background-color: #eceded;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .time span:last-child {
+    font-size: 0.8rem;
+  }
+  /* end */
 .newprod-container {
     margin: 2vh 0;
     border-radius: 5px;
@@ -544,7 +584,11 @@ div.section1 {
     border-radius: 10px;
     border: 1px solid rgba(128, 128, 128, 0.151);
 }
-
+.newprod-item:hover {
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 3px 8px;
+    cursor: pointer;
+}
 .up-photo {
     background-color: gray;
     width: 100%;
@@ -738,6 +782,11 @@ p.start {
     background-size: cover;
     width: 17vw;
     height: 22vh;
+}
+.blog:hover{
+    transition: all 0.5s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.253) 0px 3px 8px;
+    cursor: pointer;
 }
 
 .bnr1 {

@@ -1,124 +1,191 @@
 <div class="left-section">
-            <div class="category padding ">
-                <h3>Category</h3>
-                <div class="cat-box">
-                    <div class="cat-icon"></div>
-                    <p class="cat-name">Clothes</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon jew"></div>
-                    <p class="cat-name">Jewelry</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon foot"></div>
-                    <p class="cat-name">Footwear</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon glasses"></div>
-                    <p class="cat-name">Glasses</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon perfume"></div>
-                    <p class="cat-name">Perfume</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon cos"></div>
-                    <p class="cat-name">Cosmetic</p>
-                    <p class="plus"> + </p>
-                </div>
-                <div class="cat-box">
-                    <div class="cat-icon bag"></div>
-                    <p class="cat-name">Bags</p>
-                    <p class="plus"> + </p>
-                </div>
-            </div>
-            <div class="best-sellers padding">
-                <h3 class="best-sellers" style="padding-left:20px">BEST SELLERS</h3>
-                <div class="bs-box">
-                    <div class="left-icon"></div>
-                    <div class="right-details">
-                        <p class="bs-item">Baby Faberic Shoes</p>
-                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
-                        <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
-                    </div>
-                </div>
-                <div class="bs-box">
-                    <div class="left-icon tshirt"></div>
-                    <div class="right-details">
-                        <p class="bs-item">Men's Hoodies T-Shirt</p>
-                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
-                        <p class="price">$12.00 <span class="notprice"><s>$30.00</s></span></p>
-                    </div>
-                </div>
-                <div class="bs-box">
-                    <div class="left-icon gtshirt"></div>
-                    <div class="right-details">
-                        <p class="bs-item">Girl's T-Shirt</p>
-                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
-                        <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
-                    </div>
-                </div>
-                <div class="bs-box">
-                    <div class="left-icon hat"></div>
-                    <div class="right-details">
-                        <p class="bs-item">Woolen Hat</p>
-                        <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
-                        <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
-                    </div>
-                </div>
+    <div class="category">
+        <h3>Category</h3>
+        <div class="cat-box">
+            <div class="cat-icon"></div>
+            <p class="cat-name">Clothes</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon jew"></div>
+            <p class="cat-name">Jewelry</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon foot"></div>
+            <p class="cat-name">Footwear</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon glasses"></div>
+            <p class="cat-name">Glasses</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon perfume"></div>
+            <p class="cat-name">Perfume</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon cos"></div>
+            <p class="cat-name">Cosmetic</p>
+            <p class="plus"> + </p>
+        </div>
+        <div class="cat-box">
+            <div class="cat-icon bag"></div>
+            <p class="cat-name">Bags</p>
+            <p class="plus"> + </p>
+        </div>
+    </div>
+
+    <!-- best sellers -->
+    <div class="best-sellers ">
+        <h3 class="best-sellers">BEST SELLERS</h3>
+        <div class="bs-box">
+            <div class="left-icon"></div>
+            <div class="right-details">
+                <p class="bs-item">Baby Faberic Shoes</p>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
+                <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
             </div>
         </div>
+        <div class="bs-box">
+            <div class="left-icon tshirt"></div>
+            <div class="right-details">
+                <p class="bs-item">Men's Hoodies T-Shirt</p>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
+                <p class="price">$12.00 <span class="notprice"><s>$30.00</s></span></p>
+            </div>
+        </div>
+        <div class="bs-box">
+            <div class="left-icon gtshirt"></div>
+            <div class="right-details">
+                <p class="bs-item">Girl's T-Shirt</p>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
+                <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
+            </div>
+        </div>
+        <div class="bs-box">
+            <div class="left-icon hat"></div>
+            <div class="right-details">
+                <p class="bs-item">Woolen Hat</p>
+                <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733; </div>
+                <p class="price">$45.00 <span class="notprice"><s>$50.00</s></span></p>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
 
 
-        .left-section {
-            position: sticky;
-            top: 20px;
-            width: 35%;
-        }
-        
-        section.container {
-            display: flex;
-        }
-        
-        div.best-sellers {
-            margin: 1vh 1vw;
-            width: 17vw;
-        }
-        
-        div.bs-box {
-            margin: 1vh 0;
-            padding: 0 10px;
-            display: flex;
-        }
-        
-        div.left-icon {
-            width: 30%;
-            background-repeat: no-repeat;
-            background-image: url('/images/icons/dress.svg');
-            background-position: center center;
-            background-size: 60%;
-            background-color: rgba(128, 128, 128, 0.071);
-            border-radius: 3px;
-        }
-        
-        div.tshirt {
-            background-image: url('images/products/2.jpg');
-        }
-        
-        div.gtshirt {
-            background-image: url('images/products/3.jpg');
-        }
-        
-        div.hat {
-            background-image: url('images/products/4.jpg');
-        }
-        
+.left-section {
+    width: 18vw;
+    height: fit-content;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.category {
+    margin: 1vh 2vw;
+    display: flex;
+    flex-direction: column;
+}
+div.cat-box {
+    cursor: pointer;
+    display: flex;
+    margin: 1vh;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+div.cat-box:hover {
+    box-shadow: 0px 0px 2px 1px gray;
+}
+
+div.cat-icon {
+    margin-right: 10px;
+    width: 20px;
+    background-image: url('/images/icons/dress.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+div.jew {
+    background-image: url('/images/icons/jewelry.svg');
+}
+
+div.foot {
+    background-image: url('/images/icons/shorts.svg');
+}
+
+div.glasses {
+    background-image: url('/images/icons/glasses.svg');
+}
+
+div.perfume {
+    background-image: url('/images/icons/perfume.svg');
+}
+
+div.cos {
+    background-image: url('/images/icons/cosmetics.svg');
+}
+
+div.bag {
+    background-image: url('/images/icons/bag.svg');
+}
+
+p.plus {
+    position: absolute;
+    margin-left: 12vw;
+}
+div.best-sellers {
+    margin: 1vh 2vw;
+}
+div.bs-box {
+    margin: 0.5vh 0;
+    width: 100%;
+    display: flex;
+}
+div.left-icon {
+    width: 20%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url('/images/icons/dress.svg');
+    background-position: center center;
+    background-size: 60%;
+    background-color: rgba(128, 128, 128, 0.071);
+    border-radius: 3px;
+}
+
+div.tshirt {
+    background-image: url('images/products/2.jpg');
+}
+
+div.gtshirt {
+    background-image: url('images/products/3.jpg');
+}
+
+div.hat {
+    background-image: url('images/products/4.jpg');
+}
+
+.right-details {
+    padding-left: 3px;
+    font-size: small;
+}
+.rating {
+    color: rgb(224, 174, 25);
+}
+.price {
+    color: rgb(255, 91, 116);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.notprice {
+    color: gray;
+    font-size: 0.7rem;
+    font-weight: normal;
+    padding-bottom: 2px;
+}
