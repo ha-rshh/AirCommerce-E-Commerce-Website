@@ -1,0 +1,45 @@
+/* Mobile WEW */
+
+@media screen and (max-width: 600px) {
+    /* footer to be */
+    div.section-left, div.section-right{
+        display: none; 
+    }
+    p.section-center {
+        font-size: 0.7rem;
+    }
+    header{
+        /* margin: 0 auto; */
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    h1.logo {
+        margin: 0 auto;
+        color: lightpink;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+    }
+    .searchbox{
+        width: 70vw;
+    }
+    ::placeholder{
+        font-size: 0.8rem;
+    }
+    .header-right{
+        display: none;
+    }
+    /* //later add it on footer */
+    .nav-bar > .nav-item{
+        display: none; 
+    }
+    div.banner{
+        width: 70vw;
+        height: 25vh;
+    }
+    .banner-box{
+        display: none;
+    }
+}
