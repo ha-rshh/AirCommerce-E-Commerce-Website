@@ -140,7 +140,7 @@ p>a {
 
 div.banner {
     max-width: 60vw;
-    background-image: url(/images/banner-1.jpg);
+    background-image: url(/banner-1.jpg);
     background-size: cover;
     background-position: center center;    
     background-color: gray;
@@ -218,7 +218,7 @@ div.box {
 }
 
 div.right-icon {
-    background-image: url('/images/icons/dress.svg');
+    background-image: url('/dress.svg');
     background-size: 30px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -231,15 +231,15 @@ div.right-icon {
 }
 
 div.svg2 {
-    background-image: url('/images/icons/coat.svg');
+    background-image: url('/coat.svg');
 }
 
 div.svg3 {
-    background-image: url('/images/icons/glasses.svg');
+    background-image: url('/glasses.svg');
 }
 
 div.svg4 {
-    background-image: url('/images/icons/shorts.svg');
+    background-image: url('/shorts.svg');
 }
 
 div.left-info {
@@ -303,32 +303,32 @@ div.cat-box:hover {
 div.cat-icon {
     margin-right: 10px;
     width: 20px;
-    background-image: url('/images/icons/dress.svg');
+    background-image: url('/dress.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
 div.jew {
-    background-image: url('/images/icons/jewelry.svg');
+    background-image: url('/jewelry.svg');
 }
 
 div.foot {
-    background-image: url('/images/icons/shorts.svg');
+    background-image: url('/shorts.svg');
 }
 
 div.glasses {
-    background-image: url('/images/icons/glasses.svg');
+    background-image: url('/glasses.svg');
 }
 
 div.perfume {
-    background-image: url('/images/icons/perfume.svg');
+    background-image: url('/perfume.svg');
 }
 
 div.cos {
-    background-image: url('/images/icons/cosmetics.svg');
+    background-image: url('/cosmetics.svg');
 }
 
 div.bag {
-    background-image: url('/images/icons/bag.svg');
+    background-image: url('/bag.svg');
 }
 
 p.plus {
@@ -352,7 +352,7 @@ div.left-icon {
     width: 20%;
     height: 50px;
     background-repeat: no-repeat;
-    background-image: url('/images/icons/dress.svg');
+    background-image: url('/dress.svg');
     background-position: center center;
     background-size: 60%;
     background-color: rgba(128, 128, 128, 0.071);
@@ -360,15 +360,15 @@ div.left-icon {
 }
 
 div.tshirt {
-    background-image: url('images/products/2.jpg');
+    background-image: url('/2.jpg');
 }
 
 div.gtshirt {
-    background-image: url('images/products/3.jpg');
+    background-image: url('/3.jpg');
 }
 
 div.hat {
-    background-image: url('images/products/4.jpg');
+    background-image: url('/4.jpg');
 }
 
 .right-details {
@@ -415,33 +415,33 @@ div.hat {
 .section1-container .right-icon {
     width: 50%;
     background-color: white;
-    background-image: url('/images/products/clothes-1.jpg');
+    background-image: url('/clothes-1.jpg');
     background-size: cover;
     background-position: center center;
 }
 
 .box .shoe1 {
-    background-image: url('/images/products/sports-1.jpg');
+    background-image: url('/sports-1.jpg');
     background-size: 100%;
 }
 
 .box .watch3 {
-    background-image: url('/images/products/watch-3.jpg');
+    background-image: url('/watch-3.jpg');
     background-size: 100%;
 }
 
 .section1-container .clothes2 {
-    background-image: url('/images/products/clothes-2.jpg');
+    background-image: url('/clothes-2.jpg');
     background-size: 100%;
 }
 
 .section1-container .shoe1 {
-    background-image: url('/images/products/sports-1.jpg');
+    background-image: url('/sports-1.jpg');
     background-size: 100%;
 }
 
 .section1-container .shoe1 {
-    background-image: url('/images/products/sports-1.jpg');
+    background-image: url('/sports-1.jpg');
     background-size: 100%;
 }
 
@@ -478,7 +478,7 @@ div.hat {
     background-color: gray;
     width: 40%;
     height: 100%;
-    background-image: url('/images/products/shampoo.jpg');
+    background-image: url('/shampoo.jpg');
     background-position: center center;
     background-size: cover;;
 }
@@ -593,7 +593,7 @@ div.hat {
     background-color: gray;
     width: 100%;
     height: 60%;
-    background-image: url('/images/products/jacket-3.jpg');
+    background-image: url('/jacket-3.jpg');
     background-position: center center;
     background-size: cover;
 }
@@ -654,7 +654,7 @@ div.hat {
 
 .testimonial .pic {
     border: 1px solid rgba(128, 128, 128, 0.151);
-    background-image: url('/images/1656055591143.jpg');
+    background-image: url('/1656055591143.jpg');
     background-position: center center;
     background-size: cover;
     border-radius: 50%;
@@ -676,7 +676,7 @@ div.hat {
     display: flex;
     margin: 0 auto;
     background-color: yellowgreen;
-    background-image: url(/images/cta-banner.jpg);
+    background-image: url('/cta-banner.jpg');
     background-position: center center;
     background-size: cover;
     border-radius: 10px;
@@ -745,7 +745,7 @@ p.start {
 
 .service-left {
     width: 30%;
-    background-image: url('images/icons/delivery.svg');
+    background-image: url('/delivery.svg');
     background-position: center center;
     background-size: 60%;
     background-repeat: no-repeat;
@@ -790,19 +790,19 @@ p.start {
 }
 
 .bnr1 {
-    background-image: url('/images/blog-1.jpg');
+    background-image: url('/blog-1.jpg');
 }
 
 .bnr2 {
-    background-image: url('/images/blog-2.jpg');
+    background-image: url('/blog-2.jpg');
 }
 
 .bnr3 {
-    background-image: url('/images/blog-3.jpg');
+    background-image: url('/blog-3.jpg');
 }
 
 .bnr4 {
-    background-image: url('/images/blog-4.jpg');
+    background-image: url('/blog-4.jpg');
 }
 
 .blog-title {
