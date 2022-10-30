@@ -144,7 +144,7 @@ p>a {
 /* banner box */
 
 div.banner {
-    background-image: url('../banner-1.jpg');
+    background-image: url('banner-1.jpg');
     background-size: cover;
     background-position: center center;    
     background-color: gray;
