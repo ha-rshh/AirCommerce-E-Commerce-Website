@@ -140,7 +140,7 @@ p>a {
 
 div.banner {
     max-width: 60vw;
-    background-image: url('/banner-1.jpg');
+    background-image: url('banner-1.jpg');
     background-size: cover;
     background-position: center center;    
     background-color: gray;
