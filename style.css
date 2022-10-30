@@ -6,6 +6,7 @@
 }
 
 body {
+    background-color:azure;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -143,12 +144,7 @@ p>a {
 /* banner box */
 
 div.banner {
-<<<<<<< HEAD
     background-image: url('../banner-1.jpg');
-=======
-    max-width: 60vw;
-    background-image: url('banner-1.jpg');
->>>>>>> b5227e50719d42e43ab4b6a6020b691d04ab2d13
     background-size: cover;
     background-position: center center;    
     background-color: gray;
