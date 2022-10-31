@@ -1,6 +1,6 @@
 /* Mobile WEW */
 
-@media screen and (max-width: 600px) {
+@media (max-width: 500px) and (max-width: 900px) {
     /* footer to be */
     div.section-left, div.section-right{
         display: none; 
